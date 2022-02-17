@@ -16,7 +16,7 @@ jobs:
       with:
         src: github/innetemail
         dst: gitee/innetemail
-        clone_style: "ssh"
+        clone_style: "https"
         debug: true
         force_update: true
         dst_key: ${{ secrets.TESTPRIVATEKEY }}
