@@ -21,3 +21,4 @@ jobs:
         force_update: true
         dst_key: ${{ secrets.TESTPRIVATEKEY }}
         dst_token:  ${{ secrets.GITEE_TOKEN }}
+        static_list: "oooo"
